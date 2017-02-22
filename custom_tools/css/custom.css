@@ -140,11 +140,22 @@
 }
 
 
-.sliderHomeBullets.slider_alias_17 .slide-2 .fonBlock {
+.sliderHomeBullets.slider_alias_17 .slide-2 .fonBlock , .sliderHomeBullets.slider_alias_17 .slide-1 .fonBlock , 
+.sliderHomeBullets.slider_alias_17 .slide-3 .fonBlock
+{
     background : url('../../images/salao/12.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.sliderHomeBullets.slider_alias_17 .slide-3 .textBlock p {
+	font-size: 0.5em;
+    line-height: 1.8em;
+}
+
+.sliderHomeBullets.slider_alias_17 .slide-3 .order {
+	top: 52%;
 }
 
 @media (max-width: 750px) {

@@ -2203,7 +2203,7 @@ blockquote cite {display:block; margin-top:20px; }
 ----------------------------------------------------------------------- */
 .sliderHomeBullets .order { position: absolute; z-index: 5; }
 .sliderHomeBullets .order a { display: block; border: 1px solid #888; background-color: rgba(136,136,136,0.1); color: #888; font-size: 1.64em; font-weight: 300; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; padding: 0.8em 1.2em; }
-.sliderHomeBullets .order a:before {  content: '\e883';  font-family: "fontello"; display: inline-block; padding: 0 1.2em 0 0;}
+.sliderHomeBullets .order a:before {  content:none !important;  font-family: "fontello"; display: inline-block; padding: 0 1.2em 0 0;}
 
 
 /* Home Slider
